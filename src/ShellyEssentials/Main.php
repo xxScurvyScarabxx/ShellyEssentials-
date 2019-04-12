@@ -42,7 +42,7 @@ class Main extends PluginBase{
 		$this->setMotd(str_replace("&", "§", strval($this->getConfig()->get("motd"))));
 		@mkdir($this->getDataFolder());
 		$this->saveDefaultConfig();
-		$this->getServer()->getCommandMap()->registerAll("ShellyEssentials", [
+		$this->getServer()->getCommandMap()->registerAll("ChalixEssentials", [
 			new ClearInventoryCommand($this),
 			new FeedCommand($this),
 			new FlyCommand($this),
