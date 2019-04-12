@@ -32,7 +32,7 @@ use ShellyEssentials\tasks\ClearLaggTask;
 
 class Main extends PluginBase{
 
-	public const PREFIX = TextFormat::RED . TextFormat::BOLD . "ChalxEssentials > " . TextFormat::RESET;
+	public const PREFIX = TextFormat::RED . TextFormat::BOLD . "ChalixEssentials > " . TextFormat::RESET;
 
 	/** @var Main $instance */
 	protected static $instance;
