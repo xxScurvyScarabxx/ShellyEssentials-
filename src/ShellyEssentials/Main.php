@@ -32,7 +32,7 @@ use ShellyEssentials\tasks\ClearLaggTask;
 
 class Main extends PluginBase{
 
-	public const PREFIX = TextFormat::RED . TextFormat::BOLD . "ChalixEssentials > " . TextFormat::RESET;
+	public const PREFIX = TextFormat::GRAY . TextFormat::BOLD . "(" . TextFormat::RED . "Chalix " . TextFormat::GRAY . ")" . TextFormat::RESET;
 
 	/** @var Main $instance */
 	protected static $instance;
@@ -42,7 +42,7 @@ class Main extends PluginBase{
 		$this->setMotd(str_replace("&", "§", strval($this->getConfig()->get("motd"))));
 		@mkdir($this->getDataFolder());
 		$this->saveDefaultConfig();
-		$this->getServer()->getCommandMap()->registerAll("ChalixEssentials", [
+		$this->getServer()->getCommandMap()->registerAll("Chalix", [
 			new ClearInventoryCommand($this),
 			new FeedCommand($this),
 			new FlyCommand($this),
