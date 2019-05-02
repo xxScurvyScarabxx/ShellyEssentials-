@@ -1,11 +1,10 @@
 ---
 # Below is the config are the messages that will be broadcasted
 messages:
- - "Broadcast Message #1"
- - "Broadcast Message #2"
+ - "§l§7You Can edit This At Config"
 
 # The below config is the prefix before the above messages
-prefix: "Broadcast Prefix > "
+prefix: "§l§7(§cSpace§bMC) "
 
 # The below configs is when the messages above will be broadcasted in seconds
 broadcast-interval: 60
