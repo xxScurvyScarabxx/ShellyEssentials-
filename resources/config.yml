@@ -1,11 +1,11 @@
 ---
 # Below is the config are the messages that will be broadcasted
 messages:
- - "Broadcast Message #1"
- - "Broadcast Message #2"
+ - "§l§fServer Released For Beta Please Report Bugs And Glitches To The Owner"
+ - "§l§fYou Are Playing At XeronixNetwork.tk"
 
 # The below config is the prefix before the above messages
-prefix: "Broadcast Prefix > "
+prefix: "§l§7(§dXeronix§7) "
 
 # The below configs is when the messages above will be broadcasted in seconds
 broadcast-interval: 60
@@ -15,14 +15,14 @@ motd: "Server MOTD"
 
 # The below config is the title that will show when the player joins the server.
 # To show the player's name use {playername}.
-join-title: "Title"
+join-title: "§dReleased"
 
 # The below config is the subtitle that will show when the player joins the server
 # To show the player's name use {playername}.
-join-subtitle: "Subtitle"
+join-subtitle: "§eBeta"
 
 # The below config is the message that will be sent when the player joins the server
-join-message: "Message"
+join-message: "§l§dReleased For BETA"
 
 # The below config is to toggle on or off novoid support (OPTIONS: on and off)
 novoid: "on"
