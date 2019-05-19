@@ -1,27 +1,27 @@
 ---
 # Below is the config are the messages that will be broadcasted
 messages:
- - "§l§7You Can edit This At Config"
+ - "§l§7Welcome To Our Server HumanityPE We Hope You Have A Good Time"
 
 # The below config is the prefix before the above messages
-prefix: "§l§7(§cSpace§bMC) "
+prefix: "§l§7(§cHumanity§c) "
 
 # The below configs is when the messages above will be broadcasted in seconds
 broadcast-interval: 60
 
 # The below config is the server name that will show up in the minecraft server list (NOTE: Use & for color coding)
-motd: "Server MOTD"
+motd: "§l§cHumanity§bMC §fS1"
 
 # The below config is the title that will show when the player joins the server.
 # To show the player's name use {playername}.
-join-title: "Title"
+join-title: ""
 
 # The below config is the subtitle that will show when the player joins the server
 # To show the player's name use {playername}.
-join-subtitle: "Subtitle"
+join-subtitle: ""
 
 # The below config is the message that will be sent when the player joins the server
-join-message: "Message"
+join-message: "§l§eServer Is In §aBeta§e Please Report Any Bugs"
 
 # The below config is to toggle on or off novoid support (OPTIONS: on and off)
 novoid: "on"
