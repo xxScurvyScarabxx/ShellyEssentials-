@@ -25,7 +25,7 @@ permissions:
   clearinv.command:
     default: op
   wild.command:
-    default: true
+    default: op
   nick.command:
     default: op
   vanish.command:
@@ -33,7 +33,7 @@ permissions:
   spawn.command:
     default: true
   xyz.command:
-    default: true
+    default: op
   god.command:
     default: op
   afk.command:
